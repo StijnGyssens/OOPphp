@@ -3,15 +3,10 @@
 class Ship
 {
     private $id;
-
     private $name;
-
     private $weaponPower = 0;
-
     private $jediFactor = 0;
-
     private $strength = 0;
-
     private $underRepair;
 
     public function __construct($name)
