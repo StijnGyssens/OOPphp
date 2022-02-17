@@ -39,7 +39,7 @@ class BattleResult
     /**
      * Was there a winner? Or did everybody die :(
      *
-     * @return bool
+     * @return boolean
      */
 
     public function isThereAWinner()
