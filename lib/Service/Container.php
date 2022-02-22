@@ -38,6 +38,9 @@ class Container
         return $this->shipLoader;
     }
 
+    /**
+     * @return BattleManager
+     */
     public function getBattleManager(){
         if ($this->battleManager===null){
             $this->battleManager= new BattleManager();
