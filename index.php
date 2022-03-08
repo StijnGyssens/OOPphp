@@ -81,7 +81,7 @@ if (isset($_GET['error'])) {
                                     <i class="fa fa-cloud"></i>
                                 <?php endif; ?>
                             </td>
-                            <td><?php echo -$ship->getType()?></td>
+                            <td><?php echo $ship->getType()?></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
